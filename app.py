@@ -183,7 +183,7 @@ with tab2:
     try:
         import matplotlib.pyplot as plt
         
-        plt.rcParams['font.sans-serif'] = 'Microsoft JhengHei'
+        plt.rcParams['font.sans-serif'] = 'SimHei'
         plt.rcParams["axes.unicode_minus"] = False
         
         # 取出最後一筆資料
