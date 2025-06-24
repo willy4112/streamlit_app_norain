@@ -183,7 +183,7 @@ with tab2:
     try:
         import matplotlib.pyplot as plt
         
-        plt.rcParams['font.sans-serif'] = 'SimHei'
+        # plt.rcParams['font.sans-serif'] = 'SimHei'
         plt.rcParams["axes.unicode_minus"] = False
         
         # 取出最後一筆資料
@@ -252,8 +252,8 @@ with tab2:
         fig, ax = plt.subplots(figsize=(10, 4), dpi=150)
         ax.plot(df[time_col], df[rain_col], linewidth=2)
         ax.set_xlabel("")
-        ax.set_ylabel("降雨量 (mm)")
-        ax.set_title("每日降雨量變化趨勢")
+        ax.set_ylabel("Rainfall (mm)")
+        ax.set_title("Trend of Daily Rainfall")
         ax.grid(False)
         
         st.pyplot(fig)
